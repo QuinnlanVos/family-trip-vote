@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Family Trip Vote 🌍</title>
+<meta name="description" content="Vote on where our family goes next and add your own ideas.">
+<meta name="theme-color" content="#f4a261">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧭</text></svg>">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero">
+  <div class="hero-inner">
+    <p class="eyebrow">Family trip planner</p>
+    <h1>Where should we go next?</h1>
+    <p class="sub">Walkable towns, big nature. Tap ❤️ to vote for your favourites, add things to do, or suggest a new spot.</p>
+    <div class="who">
+      <label for="myname">Your name</label>
+      <input id="myname" maxlength="30" placeholder="e.g. Aunt Sue" autocomplete="given-name">
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="toolbar">
+    <span id="status" class="status">Loading votes…</span>
+    <button id="refresh" class="ghost" type="button">↻ Refresh</button>
+  </div>
+  <section id="cards" class="cards" aria-live="polite"></section>
+
+  <section class="add-spot card-like">
+    <h2>✨ Suggest a new spot</h2>
+    <form id="addSpot" autocomplete="off">
+      <label>Place name <input name="name" required maxlength="60" placeholder="e.g. Lake Bled, Slovenia"></label>
+      <label>Why it's great <span class="opt">(optional)</span><textarea name="note" maxlength="240" rows="2" placeholder="Short note"></textarea></label>
+      <label>Photo link <span class="opt">(optional, https://…)</span><input name="photo" type="url" maxlength="400" placeholder="https://…jpg"></label>
+      <button type="submit" class="primary">Add spot</button>
+    </form>
+  </section>
+</main>
+
+<footer>
+  <p>Anyone with this link can vote and add ideas. One vote per city per device. Photos: <a href="https://github.com/QuinnlanVos/family-trip-vote/blob/main/CREDITS.md">credits</a>.</p>
+</footer>
+<div id="toast" class="toast" role="status"></div>
+<script src="config.js"></script>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
