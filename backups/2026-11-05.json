@@ -1,0 +1,82 @@
+{
+  "v": 1,
+  "votes": {
+    "london": {
+      "djtn662s5g": {
+        "on": true,
+        "by": "Summer",
+        "ts": 1793398838785
+      },
+      "grahvbki27": {
+        "on": true,
+        "by": "",
+        "ts": 1793412100192
+      }
+    },
+    "como": {
+      "djtn662s5g": {
+        "on": true,
+        "by": "Summer",
+        "ts": 1793398848916
+      }
+    },
+    "edinburgh": {
+      "grahvbki27": {
+        "on": true,
+        "by": "",
+        "ts": 1793412103725
+      }
+    },
+    "lauterbrunnen": {
+      "grahvbki27": {
+        "on": true,
+        "by": "",
+        "ts": 1793412116814
+      }
+    },
+    "s-mvvrf2o122uc": {
+      "grahvbki27": {
+        "on": true,
+        "by": "",
+        "ts": 1793412600160
+      }
+    }
+  },
+  "todos": {},
+  "spots": {
+    "s-mvvra6efyhqw": {
+      "name": "Isle of Skye",
+      "note": "Scenic beauty",
+      "photo": "",
+      "by": "",
+      "made": 1793412138471,
+      "ts": 1793412174049,
+      "gone": true
+    },
+    "s-mvvrdbpe6wu2": {
+      "name": "Isle of Skye",
+      "note": "Scenic beauty",
+      "photo": "https://share.google/images/zWY7aYO9naKRCZzD7",
+      "by": "",
+      "made": 1793412285314,
+      "ts": 1793412310686,
+      "gone": true
+    },
+    "s-mvvrf2o122uc": {
+      "name": "Isle of Skye",
+      "note": "Scenic beauty",
+      "photo": "https://share.google/Ciu0O8jVYYEffzlws",
+      "by": "",
+      "made": 1793412366914,
+      "ts": 1793412366914
+    },
+    "s-mvvrjf9srdb4": {
+      "name": "Islay, Scotland",
+      "note": "Scenic; distilleries",
+      "photo": "https://www.expedia.com/Islay-Island.dx1591?pwaDialog=mediaGallery",
+      "by": "",
+      "made": 1793412569873,
+      "ts": 1793412569873
+    }
+  }
+}
